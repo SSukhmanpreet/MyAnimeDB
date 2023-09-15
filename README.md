@@ -3,7 +3,7 @@
 
 Welcome to MyAnimeDB! This project is built using ReactJS and Material UI, and it allows users to explore Studio Ghibli's anime films.
 
-##Application Link
+## Application Link
 You can check out the live application: [MyAnimeDB](https://my-anime-db.netlify.app/ "MyAnimeDB")
 
 ## Table Of Contents
@@ -14,12 +14,12 @@ You can check out the live application: [MyAnimeDB](https://my-anime-db.netlify.
 - [Contributing](#contributing)
 - [License](#license)
 
-##Features
+## Features
 - View a list of Studio Ghibli anime films.
 - See detailed information about each film, including title, director, producer, release year, rating, watch-time, cast, description, translation and pronunciation.
 - Responsive and user-friendly design.
 
-##Installation
+## Installation
 To run this project locally, follow these steps:
 ##### 1. Navigate to the desired directory on your local system.
 ##### 2. Clone the repository:
@@ -32,14 +32,14 @@ git clone "https://github.com/SSukhmanpreet/MyAnimeDB.git"
 ##### 4. Install the dependencies:
 ``npm install --legacy-peer-deps``
 
-##Usage
+## Usage
 #####After installing the dependencies, you can start the development server:
 ``
 npm start
 ``
-#####The application will be available at [http://localhost:3000](http://localhost:3000 "http://localhost:3000"). Open your web browser and navigate to this URL to use the application.
+##### The application will be available at [http://localhost:3000](http://localhost:3000 "http://localhost:3000"). Open your web browser and navigate to this URL to use the application.
 
-##API Integration
+## API Integration
 MyAnimDB integrates with the Studio Ghibli API to fetch anime film data. The API provides endpoints to retrieve information about Ghibli films.
 To configure the API integration in this project, create a .env file in the root directory and add your API endpoint. For example:
 ````javascript
@@ -59,7 +59,7 @@ axios.get(`${apiUrl}/films`).then((response) => {
 
 ```
 
-##Contributing
+## Contributing
 Contributions to this project are welcome!
 If you would like to contribute, please follow these steps:
 
