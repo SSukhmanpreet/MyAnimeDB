@@ -12,7 +12,6 @@ You can check out the live application: [MyAnimeDB](https://my-anime-db.netlify.
 - [Usage](#usage)
 - [API Integration](#api-integration)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - View a list of Studio Ghibli anime films.
