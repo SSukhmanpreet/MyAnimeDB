@@ -4,7 +4,7 @@
 Welcome to MyAnimeDB! This project is built using ReactJS and Material UI, and it allows users to explore Studio Ghibli's anime films.
 
 ##Application Link
-You can check out the live application: [MyAnimeDB](http://google.com "MyAnimeDB")
+You can check out the live application: [MyAnimeDB](https://my-anime-db.netlify.app/ "MyAnimeDB")
 
 ## Table Of Contents
 - [Features](#features)
