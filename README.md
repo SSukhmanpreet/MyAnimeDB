@@ -1,0 +1,1 @@
+MyAnimeDB - a simple anime database web-application

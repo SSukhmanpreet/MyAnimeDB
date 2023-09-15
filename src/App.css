@@ -1,0 +1,99 @@
+html {
+  background-color: #fef1e0
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scroll-top{
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #61dafb;
+  color: #FFF;
+}
+
+.scroll-top .icon{
+  margin-top:10px;
+  animation: scrollTop 0.5s alternate ease;
+}
+
+@keyframes scrollTop{
+  from{
+    transform: translateY(2px)
+  }
+  to{
+    transform: translateY(-2px)
+  }
+}
+
+.desc{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.cards:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.LogoImage{
+  border-radius: 20px;
+  padding-top: 5px;
+}
+
+.links {
+  color: #FFF;
+}
+.links:hover {
+   color: #fef1e0;
+}
+
+.link {
+  color: #000;
+}
+.link:hover {
+  color: #0e67b4;
+}
